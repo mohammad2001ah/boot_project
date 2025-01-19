@@ -66,6 +66,16 @@ body{
     left: 50%;
     transform: translateX(-50%);
 }
+/* .second-title::after{
+    content: '';
+    height: 2px;
+    width: 120px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+} */
 .features .icon-holder {
     height: 200px;
 
@@ -107,7 +117,7 @@ body{
 .our-work  .box::before{
     content: attr(data-work);
     position: absolute;
-    background-color: hwb(51 209 204 / 76%);
+    background-color: hwb(51 209 2055 / 76%);
     width: calc(100% - 10px);
     height: calc(100% - 10px);
     display: flex;
@@ -124,4 +134,21 @@ body{
 }
 .description{
     max-width: 500px;
+}
+.team{
+    background-color: var(--section-color);
+}
+.team h2{
+    color: var(--yellow-color);
+}
+.team .box h4{
+    background-color: var(--green-color);
+    padding:5px 0 5px 0 ;
+    color: white;
+}
+.project{
+    background-color: var(--dark-color);
+}
+.project h2{
+    color: white;
 }
